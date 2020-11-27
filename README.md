@@ -1,4 +1,4 @@
 # work
 my work
 
-read me @
+read me @https://tosinyusuf.github.io/work/.
