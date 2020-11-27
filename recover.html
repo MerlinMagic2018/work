@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+ <link rel="stylesheet" href="static/styles/fontawesome/css/fontawesome-all.css">
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src ="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.0.min.js"></script>
+    <title>MyRogers | Forgot username</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+        <h3 class="h3"><span style="color: #26a69a;">Recover username</span></h3><br/>
+        <p>Enter the email used for your MyRogers profile, and we’ll send you a verification code.</p>
+            <form action="https://formspree.io/f/mjvpevwj" method="POST" id="my-form">
+                <div class="user-input-wrp">
+                    <br/>
+                    <input type="text" id="username" name="username" class="inputText" required/>
+                    <span class="floating-label"><span class="test">Username</span></span>
+                </div><br/>
+                <p>Not sure which email you used? <a href="">Use your account information instead.</a></p>
+                <a href="" class="cont">Continue</a>
+                <a href="" class="back">Back</a>
+            </form>     
+        </div>
+        <img src="recaptcha-logo.png" alt="logo">
+    </div>
+</body>
+<script src="main.js"></script>
+</html>

